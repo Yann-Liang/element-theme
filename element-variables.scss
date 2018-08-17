@@ -14,7 +14,7 @@ $--color-transition-base: color .2s cubic-bezier(.645,.045,.355,1) !default;
 $--color-white: #fff !default;
 $--color-black: #333 !default;
 
-$--color-primary: #0444A1 !default;
+$--color-primary: #0067FC !default;
 $--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default; /* 53a8ff */
 $--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default; /* 66b1ff */
 $--color-primary-light-3: mix($--color-white, $--color-primary, 30%) !default; /* 79bbff */
@@ -25,9 +25,9 @@ $--color-primary-light-7: mix($--color-white, $--color-primary, 70%) !default; /
 $--color-primary-light-8: mix($--color-white, $--color-primary, 80%) !default; /* d9ecff */
 $--color-primary-light-9: mix($--color-white, $--color-primary, 90%) !default; /* ecf5ff */
 
-$--color-success: #67c23a !default;
-$--color-warning: #e6a23c !default;
-$--color-danger: #f56c6c !default;
+$--color-success: #229600 !default;
+$--color-warning: #F5790A !default;
+$--color-danger: #FF3030 !default;
 $--color-info: #909399 !default;
 
 $--color-success-light: mix($--color-white, $--color-success, 80%) !default;
@@ -43,7 +43,7 @@ $--color-info-lighter: mix($--color-white, $--color-info, 90%) !default;
 $--color-text-primary: #fff !default;
 $--color-text-regular: #030303 !default;
 $--color-text-secondary: #909399 !default;
-$--color-text-placeholder: #A3A3A3 !default;
+$--color-text-placeholder: #D2D2DA !default;
 
 /* Link
 -------------------------- */
@@ -58,7 +58,7 @@ $--background-color-base: #1B1F45 !default;
 -------------------------- */
 $--border-width-base: 1px !default;
 $--border-style-base: solid !default;
-$--border-color-base: #0444A1!default;//#E5E5E5 !default;
+$--border-color-base: #BFBFBF !default;//#E5E5E5 !default;
 $--border-color-light: #e4e7ed !default;
 $--border-color-lighter: #ebeef5 !default;
 $--border-color-extra-light: #f2f6fc !default;
@@ -81,7 +81,7 @@ $--fill-base: $--color-white !default;
 /* Font
 -------------------------- */
 $--font-path: '../fonts' !default;
-$--font-size-base: 14px !default;
+$--font-size-base: 12px !default;
 $--font-size-small: 13px !default;
 $--font-size-large: 18px !default;
 $--font-color-disabled-base: #bbb !default;
@@ -315,7 +315,7 @@ $--notification-danger-color: $--color-danger !default;
 -------------------------- */
 $--input-font-size: $--font-size-base !default;
 $--input-color: $--color-text-regular !default;
-$--input-width: 140px !default;
+$--input-width: 220px !default;
 $--input-height: 40px !default;
 $--input-border: none;//$--border-base !default;
 $--input-border-color: $--border-color-base !default;
