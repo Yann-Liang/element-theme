@@ -87,6 +87,7 @@ $--font-size-large: 18px !default;
 $--font-color-disabled-base: #bbb !default;
 $--font-weight-primary: 500 !default;
 $--font-line-height-primary: 24px !default;
+$--menu-item-font-size:14px !default;
 
 /* Size
 -------------------------- */
@@ -275,18 +276,18 @@ $--msgbox-danger-color: $--color-danger !default;
 /* Message
 -------------------------- */
 $--message-shadow: $--box-shadow-base !default;
-$--message-min-width: 380px !default;
+$--message-min-width: 156px !default;
 $--message-background-color: #edf2fc !default;
-$--message-padding: 15px 15px 15px 20px !default;
+$--message-padding: 15px 15px 15px 15px !default;
 $--message-content-color: $--color-text-regular !default;
 $--message-close-color: $--color-text-placeholder !default;
 $--message-close-size: 16px !default;
 $--message-close-hover-color: $--color-text-secondary !default;
 
-$--message-success-color: $--color-success !default;
-$--message-info-color: $--color-info !default;
-$--message-warning-color: $--color-warning !default;
-$--message-danger-color: $--color-danger !default;
+$--message-success-color: #B7EB8F;//$--color-success !default;
+$--message-info-color: #C09600; //$--color-info !default;
+$--message-warning-color: #FFE58F;//$--color-warning !default;
+$--message-danger-color: #FFA39E;//$--color-danger !default;
 
 /* Notification
 -------------------------- */
@@ -317,7 +318,7 @@ $--input-font-size: $--font-size-base !default;
 $--input-color: $--color-text-regular !default;
 $--input-width: 220px !default;
 $--input-height: 40px !default;
-$--input-border: none;//$--border-base !default;
+$--input-border: $--border-base !default;
 $--input-border-color: $--border-color-base !default;
 $--input-border-radius: $--border-radius-base !default;
 $--input-border-color-hover: $--border-color-hover !default;
@@ -351,7 +352,7 @@ $--input-mini-height: 28px !default;
 /* Cascader
 -------------------------- */
 $--cascader-menu-fill: $--fill-base !default;
-$--cascader-menu-font-size: 16px !default;//$--font-size-base !default;
+$--cascader-menu-font-size: $--font-size-base !default;
 $--cascader-menu-radius: $--border-radius-base !default;
 $--cascader-menu-border: $--border-base !default;
 $--cascader-menu-border-color: $--border-color-base !default;
@@ -597,9 +598,9 @@ $--steps-padding: 20px !default;
 
 /* Menu
 --------------------------*/
-$--menu-item-color: $--color-primary !default;//$--color-text-primary !default;
-$--menu-item-fill: $--color-white !default;
-$--menu-item-hover-fill: $--color-primary !default;//$--color-primary-light-9 !default;
+$--menu-item-color:$--color-white  !default;//$--color-text-primary !default;
+$--menu-item-fill: $--color-primary !default;//$--color-white !default;
+$--menu-item-hover-fill:$--color-white !default;//$--color-primary-light-9 !default;
 
 /* Rate
 --------------------------*/
